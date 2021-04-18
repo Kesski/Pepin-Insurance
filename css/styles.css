@@ -5,43 +5,45 @@
 .jumbotron {
     margin: 0;
 }
-    body {
-        font-family: "Antonio", sans-serif;
-    }
 
-    h1,
-    h2,
-    h3 {
-        font-family: "Antonio", cursive;
-    }
+body {
+    font-family: "Antonio", sans-serif;
+}
 
-    h2 {
-        color: #3046C5;
-    }
+h1,
+h2,
+h3 {
+    font-family: "Antonio", cursive;
+}
 
-    header h2 {
-        color: #CEC8FF;
-    }
+h2 {
+    color: #3046C5;
+}
 
-    footer {
-        background-image: linear-gradient(#0a1d41, #392b7e);
-        padding: 20px 0;
-        color: white;
-    }
+header h2 {
+    color: #CEC8FF;
+}
 
-    .jumbotron {
-        padding: 30px;
-        background-image: linear-gradient(to right, #0a1d41, #392b7e, #5557b4);
-        color: white;
-    }
+footer {
+    background-image: linear-gradient(#0a1d41, #392b7e);
+    padding: 20px 0;
+    color: white;
+}
 
-    .row-content {
-        padding: 50px 0;
-        border-bottom: 1px ridge;
-        min-height: 200px;
-    }
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #0a1d41, #392b7e, #5557b4);
+    color: white;
+}
 
-    .maintxt {
-        background-image: url(images/LakePepin-Sailboat.jpg) no-repeat center fixed;
-        background-size: cover;
-    }
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.maintxt {
+    overflow: hidden;
+    width: 100vh;
+    height: 100vh;
+}
