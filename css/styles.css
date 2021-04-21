@@ -41,9 +41,3 @@ footer {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-
-.maintxt {
-    overflow: hidden;
-    width: 100vh;
-    height: 100vh;
-}
