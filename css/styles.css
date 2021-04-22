@@ -41,3 +41,25 @@ footer {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
+
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    background-color: blue;
+    color: #ffffff;
+    bottom: 200px;
+    right: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
