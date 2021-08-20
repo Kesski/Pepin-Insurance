@@ -1,10 +1,7 @@
 .navbar {
-    background-color: #3f4237;
+    background-color: #FFFFFF;
 }
 
-.jumbotron {
-    margin: 0;
-}
 
 body {
     font-family: "Antonio", sans-serif;
@@ -27,12 +24,6 @@ header h2 {
 footer {
     background-image: linear-gradient(#0a1d41, #392b7e);
     padding: 20px 0;
-    color: white;
-}
-
-.jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #0a1d41, #392b7e, #5557b4);
     color: white;
 }
 
