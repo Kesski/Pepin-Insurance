@@ -11,4 +11,8 @@ $(function () {
         $("#boatModal").modal('toggle')
     })
 
+     $("#loginButton").click(function () {
+       $("#loginModal").modal("toggle");
+     });
+
 });

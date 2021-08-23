@@ -25,7 +25,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pepinNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="collapse navbar-collapse" id="nucampNavbar">
+                <div class="collapse navbar-collapse" id="pepinNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
@@ -41,22 +41,58 @@
         </div>
     </nav>
 
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid no-padding">
         <div class="row">
             <div class="col-md-12">
                 <img src="images/tree-lake.jpg" alt="lake" style="width:100%;">
-                <div class="text-block">
+                <div class="text-block text-center">
                     <h4>Pepin Insurance Agency</h4>
                     <p>For all that’s ahead.</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <br><br><br>
+    <br><br>
 
     <div class="card-group">
-        <div class="card text-center text-dark bg-light" style="width: 18rem;">
+        <div class="card text-center text-dark bg-light mx-auto" style="width: 18rem;">
             <img src="images/house.png" class="card-img-top" alt="house">
             <div class="card-body">
                 <h5 class="card-title">Home Insurance</h5>
@@ -66,7 +102,7 @@
             </div>
         </div>
 
-        <div class="card text-center text-dark bg-light" style="width: 18rem;">
+        <div class="card text-center text-dark bg-light mx-auto" style="width: 18rem;">
             <img src="images/mancar.png" class="card-img-top" alt="man in car">
             <div class="card-body">
                 <h5 class="card-title">Auto Insurance</h5>
@@ -76,7 +112,7 @@
             </div>
         </div>
 
-        <div class="card text-center text-dark bg-light" style="width: 18rem;">
+        <div class="card text-center text-dark bg-light mx-auto" style="width: 18rem;">
             <img src="images/jetski.png" class="card-img-top" alt="boat in water">
             <div class="card-body">
                 <h5 class="card-title">Watercraft Insurance</h5>
